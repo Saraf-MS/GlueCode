@@ -42,7 +42,7 @@ new_df_aus.write.mode('overwrite').parquet("s3://etl-target-101/gluejob1/")
 
 
 COUNTRY_NAME_TO_COUNTRY_CODE = {
-    'Abkhazia': 'AB',
+    'Abkhazia': 'AB1',
     'Afghanistan': 'AF',
     'Albania': 'AL',
     'Algeria': 'DZ',
